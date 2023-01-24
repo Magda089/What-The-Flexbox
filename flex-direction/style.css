@@ -34,5 +34,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   border:10px solid goldenrod;
   min-height:100vh;
  flex-direction: row;
+
 }
 
