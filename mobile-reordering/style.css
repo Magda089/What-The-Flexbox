@@ -106,4 +106,13 @@ order: 9999;
   .flex-nav ul.open {
     display: flex;
   }
+  .top {
+    order: 2;
+  }
+  .details {
+    order: 3;
+  }
+  .signup {
+    orphans: 4;
+  }
 }
