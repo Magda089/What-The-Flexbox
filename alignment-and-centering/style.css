@@ -32,12 +32,22 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid mistyrose;
+  height: 100vh;
+
+  /* task 4 */
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* task  */
   /* justify-content:space-between;
   flex-direction: column; */
   /* min-height:100vh; */
-  height: 100vh;
+  
+  
+  /* task 3:
   align-items: center;
- flex-direction: column;
+ flex-direction: column; */
   /* align-items: baseline; */
 }
 
@@ -49,3 +59,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box3 {
 font-size: 50px;
 } */
+
+/* box for task 4 */
+.box {
+width: 33.333%;
+}
