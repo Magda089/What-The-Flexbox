@@ -7,6 +7,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* Some default styles to make each box visible */
+
+/* video 11 */
 .box {
   color:white;
   font-size: 50px;
@@ -33,12 +35,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
-.box1 {
-  flex:10 5 400px;
+.box {
+  /* flex:1; */
+  /* flex-grow: 10;
+  flex-shrink: 5; */
+  /* flex-basis: 400px ; */
+  flex: 10 5 400px;
 }
+
 
 .box2 {
-  flex:1 1 400px;
+  flex-basis: 400px;
+  flex-grow: 1;
 }
-
-
